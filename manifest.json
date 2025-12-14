@@ -1,0 +1,9 @@
+{
+	"id": "obsidian-spec-kit",
+	"name": "Spec-Kit for Obsidian",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Spec-driven development workflow with AI agent.",
+	"author": "User",
+	"isDesktopOnly": false
+}
