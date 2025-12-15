@@ -33,9 +33,20 @@
 
 ## 🚀 설치 방법
 
+### BRAT를 이용한 설치 (추천)
+
+1. Obsidian에서 **BRAT** 플러그인 설치
+2. BRAT 설정 > Add Beta plugin 클릭
+3. 저장소 URL 입력:
+   ```
+   https://github.com/sangpsy0/obsidian-spec-kit
+   ```
+4. Obsidian 재시작
+5. 설정 > Community plugins에서 "Spec-Kit" 활성화
+
 ### 수동 설치
 
-1. [Releases](https://github.com/YOUR_USERNAME/obsidian-spec-kit/releases)에서 최신 버전 다운로드
+1. [Releases](https://github.com/sangpsy0/obsidian-spec-kit/releases)에서 최신 버전 다운로드
 2. `main.js`, `manifest.json`, `styles.css`를 vault의 `.obsidian/plugins/obsidian-spec-kit/` 폴더에 복사
 3. Obsidian 재시작
 4. 설정 > Community plugins에서 "Spec-Kit" 활성화
@@ -43,7 +54,7 @@
 ### 개발 환경에서 빌드
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/obsidian-spec-kit.git
+git clone https://github.com/sangpsy0/obsidian-spec-kit.git
 cd obsidian-spec-kit
 npm install
 npm run build
