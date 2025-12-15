@@ -1,8 +1,8 @@
 # Dependencies
 node_modules/
 
-# Build output (optional - some prefer to include main.js)
-# main.js
+# Build output
+# main.js should be included for BRAT plugin loading
 
 # IDE
 .idea/
